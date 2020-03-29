@@ -15,7 +15,7 @@ public class Cadastrar {
 
 		System.out.print("\nCadastro de Musicas"
 						+ "\n1- Cadastrar Musicas"+ "\n2- Ver Musicas"
-						+ "\n3- Editar Musicas" + "\n4- Remover Musica" + "\n5- Deletar da Lista"
+						+ "\n3- Editar Musicas" + "\n4- Remover Musicas" + "\n5- Deletar da Lista"
 						+ " \n6- Sair" + "\nSelecione uma opção: ");
 		seleção = scan.nextInt();
 		System.out.print("\n");
@@ -95,7 +95,7 @@ public class Cadastrar {
                 }}
 	
  	private boolean duracao(Lista_de_Musicas novaMusica) {
-	// TODO Auto-generated method stub
+	
 	return false;
 }
 	public void verPlaylist()	{
@@ -116,6 +116,7 @@ public class Cadastrar {
 				System.out.print(playlist.getDuração(i)+"/ Duração: ");
 				System.out.print(playlist.getDuração(i)+ "\n/.");
 			    System.out.print("\n");
+			    //erro de retorno Druração
 			}
 	    }
 	}	
